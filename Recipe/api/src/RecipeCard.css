@@ -1,0 +1,48 @@
+/* RecipeCard.css */
+
+.recipe-card {
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 15px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  transition: transform 0.3s ease;
+  max-width: 300px; /* Adjust the maximum width as needed */
+  margin: 0 auto 20px; /* Center the card and add some bottom margin */
+}
+
+.recipe-card:hover {
+  transform: translateY(-3px);
+}
+
+.recipe-card h2 {
+  font-size: 1.6rem; /* Increase the font size for the recipe title */
+  color: #333;
+  margin-bottom: 8px; /* Reduce the margin between title and image */
+}
+
+.recipe-card img {
+  width: 100%;
+  height: auto; /* Maintain aspect ratio for images */
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+.recipe-card h3 {
+  font-size: 1.4rem; /* Increase the font size for the section titles */
+  color: #555;
+  margin-bottom: 8px; /* Reduce the margin between section titles and list */
+}
+
+.recipe-card ul {
+  padding: 0;
+  margin: 0;
+}
+
+.recipe-card li {
+  list-style: none;
+  color: #777;
+  margin-bottom: 5px; /* Reduce the margin between list items */
+  font-size: 1.1rem; /* Adjust the font size for list items */
+  line-height: 1.4; /* Improve readability with slightly increased line height */
+}
